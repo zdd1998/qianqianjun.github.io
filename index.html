@@ -1,8 +1,573 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+<title>高谦的个人简介</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="description/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="description/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script src="description/js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- for-gallery-rotation -->
+<script src="description/js/modernizr.custom.97074.js"></script>
+<!-- //for-gallery-rotation -->
+<!-- FlexSlider -->
+<link rel="stylesheet" href="description/css/flexslider.css" type="text/css" media="screen" />
+<script defer src="description/js/jquery.flexslider.js"></script>
+<script type="text/javascript">
+$(window).load(function(){
+  $('.flexslider').flexslider({
+	animation: "slide",
+	start: function(slider){
+	  $('body').removeClass('loading');
+	}
+  });
+});
+</script>
+<!-- //FlexSlider -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="description/js/move-top.js"></script>
+<script type="text/javascript" src="description/js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling --><!-- 
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Comfortaa:400,300,700' rel='stylesheet' type='text/css'> -->
 </head>
+
 <body>
-	<p>测试主页</p>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="header-nav">
+				<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+						<div class="logo">
+							<a class="navbar-brand" href="#">高谦 <span>逐渐成长的web前后端开发工程师</span></a>
+						</div>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					 <ul class="nav navbar-nav">
+						<li class="hvr-sweep-to-bottom active"><a href="index.html">信息概要</a></li>
+						<li class="hvr-sweep-to-bottom"><a href="#manager" class="scroll">工作经验</a></li>
+						<li class="hvr-sweep-to-bottom"><a href="#about" class="scroll">技术能力</a></li>
+						<li class="hvr-sweep-to-bottom"><a href="#gallery" class="scroll">校园生活</a></li>
+						<li class="hvr-sweep-to-bottom"><a href="#contact" class="scroll">联系方式</a></li>
+					  </ul>
+					</div><!-- /.navbar-collapse -->
+				</nav>
+			</div>
+		</div>
+	</div>
+<!-- //header -->
+<!-- banner -->
+	<div class="banner">
+		<div class="container">
+			<section class="slider">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<div class="banner-info">
+								<div class="banner-info-left">
+									<h1>个人简介</h1>
+									<p>出生于1997年3月29日,河北省保定市定兴县,因为父母重视教育,从小学习就比较刻苦,对知识比较渴望,并善于用所学知识解决一些问题</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-info">
+								<div class="banner-info-left">
+									<h1>教育经历</h1>
+									<p>在居住地所在村上幼儿园,成绩平常,并无过人之处,小学时,优势初显,名列前茅,经常拿回奖状,乡邻经常以我作为榜样鞭策孩子,小升初考试成绩优异,父母竭力送我进最好的初中,我不敢怠慢,但不知为何成绩平常,直到初三,崭露头角,高中时期,幸遇名师,如坐春风,受益匪浅,高考成绩理想,以634分的成绩被北京化工大学录取</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-info">
+								<div class="banner-info-left">
+									<h1>性格,作风</h1>
+									<p>做事认真,从不敷衍了事,努力把事情做好;乐于助人,以自己技术和学业上的优势帮助他人解决问题;待人随和,不骄傲,不自大,以欣赏的眼光看待他人;幽默风趣,善于在工作和生活中寻找快乐,并为其他人带来快乐;严谨,靠谱,一诺千金。</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>	
+			<div class="banner-pos">
+				<div class="col-md-3 banner-pos-left">
+					<div class="banner-pos-left-info">
+						<h3><i class="glyphicon glyphicon-cloud" aria-hidden="true"></i>家乡生日</h3>
+						<p>1997年3月29日出生<br> 
+						   家乡河北省保定市定兴县<br>
+						   小朱庄乡,高兰沟村<br><br></p>
+					</div>
+				</div>
+				<div class="col-md-3 banner-pos-left">
+					<div class="banner-pos-left-info">
+						<h3><i class="glyphicon glyphicon-globe" aria-hidden="true"></i>家庭背景</h3>
+						<p>家中有四人<br>
+						   我为长子,还有一妹为长女<br>
+						   父母为个体,做生意赚钱 <br><br>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 banner-pos-left">
+					<div class="banner-pos-left-info">
+						<h3><i class="glyphicon glyphicon-phone" aria-hidden="true"></i>教育经历</h3>
+						<p>兰沟中心小学<br>定兴县第二中学(初中)<br>定兴县第三中学(高中)<br>北京化工大学</p>
+					</div>
+				</div>
+				<div class="col-md-3 banner-pos-left">
+					<div class="banner-pos-left-info">
+						<h3><i class="glyphicon glyphicon-star" aria-hidden="true"></i>性格作风</h3>
+						<p>做事认真,思维严谨<br>乐于助人,待人友善<br>靠谱,一诺千金<br> 
+							严于律己,宽以待人</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //banner -->
+<!-- welcome -->
+	<div class="welcome">
+		<div class="container">
+			<h3>更多内容</h3>
+			<p class="ever">了解更多请往下看,详细信息请移步后面!</p>
+			<div class="welcome-grids">
+				<div class="col-md-3 welcome-grid">
+					<div class="welcome-grd">
+						<div class="icons">
+							<span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span>
+						</div>
+						<h4>专业信息</h4>
+						<p>北京化工大学<br>信息科学与技术学院<br>计算机科学与技术</p>
+					</div>
+				</div>
+				<div class="col-md-3 welcome-grid">
+					<div class="welcome-grd">
+						<div class="icons">
+							<span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+						</div>
+						<h4>熟悉语言</h4>
+						<p>html,css,JS<br>PHP,MySQL<br>python,node.js<br>C/C++/Java</p>
+					</div>
+				</div>
+				<div class="col-md-3 welcome-grid">
+					<div class="welcome-grd">
+						<div class="icons">
+							<span class="glyphicon glyphicon-filter" aria-hidden="true"></span>
+						</div>
+						<h4>工作经验</h4>
+						<p>初中:班长<br>高中:学习委员<br>大学:学生网络中心部长</p>
+					</div>
+				</div>
+				<div class="col-md-3 welcome-grid">
+					<div class="welcome-grd">
+						<div class="icons">
+							<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+						</div>
+						<h4>荣誉奖项</h4>
+						<p>校级奖学金<br>优秀班干部<br>校级优干<br>国家励志奖学金</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //welcome -->
+<!-- services -->
+	<!-- <div id="services" class="services">
+		<div class="container">
+			<h3>Services</h3>
+			<p class="ever">To take a trivial example, which of us ever undertakes laborious 
+				physical exercise.</p>
+			<div class="services-top">
+				<div class="col-md-6 services-top-left">
+					<div class="services-top-main">
+						<div class="col-md-6 services-left service-img">
+							<a href="description/images/5.png" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="description/images/5.png" alt="" class="img-responsive" />
+							</a>
+						</div>
+						<div class="col-md-6 services-left">
+							<h4>Proin tempus lacus at egestas vitae</h4>
+							<p>Quisque diam risus, scelerisque vitae egestas vitae, congue at neque tincidunt orci quis.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="services-top-main">
+						<div class="col-md-6 services-left service-img">
+							<a href="description/images/6.png" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="description/images/6.png" alt="" class="img-responsive" />
+							</a>
+						</div>
+						<div class="col-md-6 services-left">
+							<h4>Maecenas quis lacus scelerisque</h4>
+							<p>Quisque diam risus, scelerisque vitae egestas vitae, congue at neque tincidunt orci quis.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="col-md-6 services-top-left">
+					<div class="services-top-main">
+						<div class="col-md-6 services-left service-img">
+							<a href="description/images/7.png" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="description/images/7.png" alt="" class="img-responsive" />
+							</a>
+						</div>
+						<div class="col-md-6 services-left">
+							<h4>Vestibulum lobortis velit congue at</h4>
+							<p>Quisque diam risus, scelerisque vitae egestas vitae, congue at neque tincidunt orci quis.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="services-top-main">
+						<div class="col-md-6 services-left service-img">
+							<a href="description/images/8.png" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="description/images/8.png" alt="" class="img-responsive" />
+							</a>
+						</div>
+						<div class="col-md-6 services-left">
+							<h4>Etiam in dolor sed purus diam risus</h4>
+							<p>Quisque diam risus, scelerisque vitae egestas vitae, congue at neque tincidunt orci quis.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div> -->
+				<!--swipebox -->	
+				<link rel="stylesheet" href="description/css/swipebox.css">
+					<script src="description/js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+				<!--//swipebox Ends -->
+		<!-- </div>
+	</div> -->
+	<div class="services1" id="manager">
+		<div class="container">
+			<h3>工作经验</h3>
+			<p class="ever">从小学到大学，从班干部到校级组织干部，从学生工作到勤工工作，不仅仅会写代码！</p>
+			<div class="services-grids">
+				<div class="col-md-4 services-grid">
+					<div class="para">
+						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+						<p style="text-align: left;">班级工作<br>初中：班长<br>高中：学习委员+纪律委员<br></p>
+					</div>
+				</div>
+				<div class="col-md-4 services-grid">
+					<div class="para">
+						<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+						<p style="text-align: left;">学生工作<br>学生网络中心：技术部开发组组长<br>信息学院团总支:实践部干事</p>
+					</div>
+				</div>
+				<div class="col-md-4 services-grid">
+					<div class="para">
+						<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+						<p style="text-align: left;">勤工工作<br>大一上:自习室管理员<br>大二上：信息中心网站助管</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //services -->
+<!-- about -->
+	<div id="about" class="advantages">
+		<div class="container">
+			<h3>技术能力</h3>
+			<div class="our-advantages-grids">
+				<div class="col-md-4 our-advantages-grid">
+					<div class="col-xs-3 our-advantages-grd-left">
+						<p>1.</p>
+					</div>
+					<div class="col-xs-9 our-advantages-grd-right">
+						<h4>Html</h4>
+						<p>自学超文本标记语言,由于语言较简单,掌握较好,了解HTML5的一些新属性</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 our-advantages-grid">
+					<div class="col-xs-3 our-advantages-grd-left">
+						<p>2.</p>
+					</div>
+					<div class="col-xs-9 our-advantages-grd-right">
+						<h4>CSS</h4>
+						<p>为网页添加样式,避免单调的网页,用户体验更加,熟悉css,对css3的一些新属性比较了解</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 our-advantages-grid">
+					<div class="col-xs-3 our-advantages-grd-left">
+						<p>3.</p>
+					</div>
+					<div class="col-xs-9 our-advantages-grd-right">
+						<h4>JavaScript</h4>
+						<p>接触的第一门解释型的脚本语言,基础知识掌握较好,并且熟悉一些优秀的JavaScript库</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="our-advantages-grids">
+				<div class="col-md-4 our-advantages-grid">
+					<div class="col-xs-3 our-advantages-grd-left">
+						<p>4.</p>
+					</div>
+					<div class="col-xs-9 our-advantages-grd-right">
+						<h4>MySQL</h4>
+						<p>学习后端开发时用到的数据库,比较流行,大多数网站都采用这种关系型数据库,熟练SQL语句,使用MySQL workbanch 进行操作</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 our-advantages-grid">
+					<div class="col-xs-3 our-advantages-grd-left">
+						<p>5.</p>
+					</div>
+					<div class="col-xs-9 our-advantages-grd-right">
+						<h4>PHP</h4>
+						<p>简单,以学,好用,世界上最好的语言,经过多次开发,已经有经验,了解think PHP框架</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 our-advantages-grid">
+					<div class="col-xs-3 our-advantages-grd-left">
+						<p>6.</p>
+					</div>
+					<div class="col-xs-9 our-advantages-grd-right">
+						<h4>C/C++/Java/C#</h4>
+						<p>专业主修C,自学C++并且经常使用C++,比较熟练,Java和C#不经常使用,掌握基础知识,面向对象程序设计</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="history">
+		<div class="container">
+			<div class="col-md-6 history-left">	
+				<h3>学习历史</h3>
+				<div class="history-left-grid">
+					<p><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i>2016-2017年第一学期</p>
+					<h4>web前端开发知识</h4>
+					<p class="aut">加入学生网络中心技术部开发组,网站开发相关知识,第一学期学习html,css,JavaScript,并在掌握的基础上学习bootstrap框架,html5和css3的新属性,jQuery等优秀JavaScript库,基本具备开发体验较好的网页的能力</p>
+				</div>
+				<div class="history-left-grid">
+					<p><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i>2016-2017年第二学期</p>
+					<h4>web后端开发知识</h4>
+					<p class="aut">开始接触服务器,数据库等知识,在开发组学习PHP和mysql,完成作业,基本掌握后端开发知识,具有一定后端开发能力,自行开发出一个留言板</p>
+				</div>
+				<div class="history-left-grid">
+					<p><i class="glyphicon glyphicon-calendar" aria-hidden="true"></i>2017年暑假</p>
+					<h4>微信开发,面向对象</h4>
+					<p class="aut">在学生网络中心暑期学校学习面向对象程序设计,学会使用think PHP框架,使用easy wecchat SDK进行微信开发</p>
+				</div>
+			</div>
+			<div class="col-md-6 history-right">
+				<h3>技术程度</h3>
+				<h4>各编程语言掌握程度</h4>
+				<p>web前后端开发主要为自学学会,专业主修C,自学C++,Java,python,node.js</p>
+				<ul>
+					<li><a style="padding-right: 80px;">HTML/CSS/SQL</a>  85%</li>
+					<li><a style="padding-right: 80px;">JavaScript</a>    80%</li>
+					<li><a style="padding-right: 80px;">C/C++/PHP </a>    75%</li>
+					<li><a style="padding-right: 80px;">Java  </a>        60%</li>
+					<li><a style="padding-right: 80px;">python </a>       50%</li>
+					<li><a style="padding-right: 80px;">node.js </a>      40%</li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //about -->
+<!-- gallery -->
+	<div id="gallery" class="gallery" style="background-color: #f4dbdb;">
+		<div class="container">
+			<h3>校园生活</h3>
+			<p class="ever">小学,初中,高中仿佛就是我学习的写照,大学开始我的生活才开始真正的丰富</p>
+			<div class="gallery-grids">
+				<section>
+					<ul id="da-thumbs" class="da-thumbs">
+						<li>
+							<a href="description/images/5.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="description/images/5.jpg" alt="" />
+								<div>
+									<h5>北化北校区</h5>
+									<span>北京化工大学北校区,2016年,满怀憧憬的我成为这里的一名计算机专业本科新生</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="description/images/6.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="description/images/6.jpg" alt="" />
+								<div>
+									<h5>北化新校区</h5>
+									<span>这里是北京化工大学的新校区某湖畔,北京化工大学新校区较老校区有很大的改善</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="description/images/7.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="description/images/7.jpg" alt="" />
+								<div>
+									<h5>图书馆</h5>
+									<span>气派的北化新校区图书馆,自习的好去处</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="description/images/8.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="description/images/8.jpg" alt="" />
+								<div>
+									<h5>成为宿舍学长</h5>
+									<span>接到四个宿舍学弟,帮助他们适应大学生活,答疑解惑</span>
+								</div>
+							</a>
+						</li>
+						<li>	
+							<a href="description/images/9.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="description/images/9.jpg" alt="" />
+								<div>
+									<h5>光荣入党</h5>
+									<span>进过努力,成为信息学院本科生第二党支部第一批预备党员</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="description/images/15.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="description/images/15.jpg" alt="" />
+								<div>
+									<h5>学生工作</h5>
+									<span>表现优秀,经过努力成为学生网络中心一名部长,发表就职演说</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="description/images/16.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="description/images/16.jpg" alt="" />
+								<div>
+									<h5>庆祝节日</h5>
+									<span>2017年的圣诞,和学生网络中心的小伙伴们一起庆祝</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="description/images/17.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="description/images/17.jpg" alt="" />
+								<div>
+									<h5>我的老铁</h5>
+									<span>学生网络中心,三个好朋友合影,服务器抢镜!</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="description/images/18.jpg" class=" mask b-link-stripe b-animate-go   swipebox"  title="">
+								<img src="description/images/18.jpg" alt="" />
+								<div>
+									<h5>文体活动</h5>
+									<span>交谊舞大赛,合唱比赛,运动会,都有我积极的身影!</span>
+								</div>
+							</a>
+						</li>
+						<div class="clearfix"> </div>
+					</ul>
+				</section>
+				<script type="text/javascript" src="description/js/jquery.hoverdir.js"></script>	
+				<script type="text/javascript">
+					$(function() {
+					
+						$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+
+					});
+				</script>
+			</div>
+		</div>
+	</div>
+<!-- //gallery -->
+<!-- contact -->
+	<div id="contact" class="contact">
+	<div class="container">
+		<h3>联系方式</h3>
+		<p class="ever">欢迎垂询,随时准备回答您的问题!</p>
+		<div class="contact-us1-bottom">
+			<!-- <form>
+				<input type="text" value="Name" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Name';}" required="">
+				<input type="email" value="Email" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Email';}" required="">
+				<textarea type="text"  onfocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+				<input type="submit" value="Submit" >
+			</form> -->
+			<div class="home-radio-clock">
+				<ul>
+					<li><i class="glyphicon glyphicon-home" aria-hidden="true"></i>地址</li>
+					<li><i class="glyphicon glyphicon-bullhorn" aria-hidden="true"></i>联系我</li>
+				</ul>
+			</div>
+			<div class="home-radio-clock-right">
+				<ul>
+					<li>北京市,昌平区
+						<span>北京化工大学新校区</span></li>
+					<li class="lst">电话:15801209263 Email:1905946527@qq.com</li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	</div>
+<!-- //contact -->
+<!-- footer -->
+	<div class="copy">
+		<div class="container">
+			<div class="copy-left">
+				<p>Copyright &copy; 2017 高谦</p>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!--//footer-->
+<!-- for bootstrap working -->
+		<script src="description/js/bootstrap.js"> </script>
+<!-- //for bootstrap working -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
 </body>
 </html>
